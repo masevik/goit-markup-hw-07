@@ -4,9 +4,10 @@
 @import './utils/visually-hidden';
 @import './utils/variables';
 @import './utils/mixins';
+
+@import './components/common';
 @import './components/cardset';
 @import './components/socials';
-@import './components/common';
 @import './components/button';
 @import './components/logo';
 @import './components/backdrop';

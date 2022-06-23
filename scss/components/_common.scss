@@ -1,0 +1,25 @@
+body {
+  font-family: $fontFamily;
+  @include font(14px, null, 1.71, 0.03em);
+  color: $mainTextColor;
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section__title {
+  margin-bottom: 50px;
+  @include font(36px, null, 1.17, null);
+  color: $blackTextColor;
+  text-align: center;
+}

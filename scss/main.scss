@@ -1,11 +1,15 @@
-@import './base/normalize';
-@import './base/reset';
-
 @import './utils/visually-hidden';
 @import './utils/variables';
 @import './utils/mixins';
 
-@import './components/common';
+@import './base/normalize';
+@import './base/reset';
+@import './base/common';
+
+@import './components/section';
+@import './components/container';
+@import './components/navigation';
+@import './components/contacts';
 @import './components/cardset';
 @import './components/socials';
 @import './components/button';

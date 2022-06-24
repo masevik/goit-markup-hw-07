@@ -10,3 +10,8 @@ $linkColor: #afb1b8;
 $mainRadius: 4px;
 $buttonShadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 $transitionFunction: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+:root {
+  --card-gap: 30px;
+  --card-item: 1;
+}

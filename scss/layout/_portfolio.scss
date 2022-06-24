@@ -1,6 +1,6 @@
 .portfolio__item {
   background-color: $whiteBackgroundColor;
-  flex-basis: calc(100% / 3 - 30px);
+  --card-item: 3;
 }
 
 .portfolio__thumb {

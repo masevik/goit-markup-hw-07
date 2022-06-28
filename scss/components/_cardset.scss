@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--card-gap));
   margin-top: calc(-1 * var(--card-gap));
+  // gap: var(--card-gap);
 }
 
 .card-set__item {
